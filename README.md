@@ -4,7 +4,7 @@ Aplicación web de comercio electrónico desarrollada con **CodeIgniter 4**, **P
 
 El proyecto fue desarrollado como una práctica académica de desarrollo web y permite gestionar productos, usuarios, carrito de compras y ventas, diferenciando las funcionalidades disponibles según el tipo de usuario.
 
-> 📌 **Nota:** Se trata de un proyecto académico desarrollado en 2024. Su objetivo principal fue poner en práctica conceptos de desarrollo web, bases de datos, MVC y gestión de usuarios. No incluye una pasarela de pagos online.
+> 📌 **Nota:** Este proyecto fue desarrollado aproximadamente en 2024 como práctica de desarrollo web. Se trata de una implementación básica con fines educativos y no incluye funcionalidades avanzadas como pasarelas de pago.
 
 ---
 
@@ -309,6 +309,3 @@ Entre las mejoras que podrían incorporarse se encuentran:
 * Implementación de medidas de seguridad adicionales.
 * Adaptación a versiones actuales de las tecnologías utilizadas.
 * Despliegue en un servidor web.
-
-
-Este proyecto fue desarrollado con fines educativos y de aprendizaje.
