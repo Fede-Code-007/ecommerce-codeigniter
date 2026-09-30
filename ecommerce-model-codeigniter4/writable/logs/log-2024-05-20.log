@@ -1,0 +1,173 @@
+CRITICAL - 2024-05-20 00:33:40 --> syntax error, unexpected '/'
+in APPPATH\Controllers\login_controller.php on line 66.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\login_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\login_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\login_controller')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\login_controller')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\login_controller', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:08:15 --> syntax error, unexpected '<'
+in APPPATH\Views\front\header.php on line 23.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:08:52 --> syntax error, unexpected '<'
+in APPPATH\Views\front\header.php on line 23.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:11:06 --> syntax error, unexpected '<'
+in APPPATH\Views\front\header.php on line 23.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:11:07 --> syntax error, unexpected '<'
+in APPPATH\Views\front\header.php on line 23.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:12:06 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH\Views\front\header.php on line 26.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:21:37 --> syntax error, unexpected 'mensajesContacto' (T_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:22:19 --> syntax error, unexpected 'mensajesContacto' (T_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 37.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:49:33 --> Call to a member function get_contactos() on null
+in APPPATH\Controllers\mensajes_contacto_controller.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\mensajes_contacto_controller->mostrarMensajesContacto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mensajes_contacto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:53:01 --> Class 'App\Controllers\MensajesContactoModel' not found
+in APPPATH\Controllers\mensajes_contacto_controller.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\mensajes_contacto_controller->mostrarMensajesContacto()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mensajes_contacto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:53:37 --> Invalid file: "contacto_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contacto_view.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contacto_view', [], true)
+ 3 APPPATH\Controllers\mensajes_contacto_controller.php(74): view('contacto_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\mensajes_contacto_controller->mostrarMensajesContacto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mensajes_contacto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:54:00 --> Invalid file: "mensajesContacto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mensajesContacto.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mensajesContacto', [], true)
+ 3 APPPATH\Controllers\mensajes_contacto_controller.php(74): view('mensajesContacto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\mensajes_contacto_controller->mostrarMensajesContacto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mensajes_contacto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 13:54:01 --> Invalid file: "mensajesContacto.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mensajesContacto.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('mensajesContacto', [], true)
+ 3 APPPATH\Controllers\mensajes_contacto_controller.php(74): view('mensajesContacto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\mensajes_contacto_controller->mostrarMensajesContacto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mensajes_contacto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 14:04:34 --> Invalid file: "\front\header\front\mensajesContacto\front\footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\front\\header\\front\\mensajesContacto\\front\\footer.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header\\front\\mensajesContacto\\front\\footer', [], true)
+ 3 APPPATH\Controllers\mensajes_contacto_controller.php(74): view('\\front\\header\\front\\mensajesContacto\\front\\footer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\mensajes_contacto_controller->mostrarMensajesContacto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mensajes_contacto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 14:05:13 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\proyecto_perez_ruiz_federico\app\Controllers\mensajes_contacto_controller.php on line 74
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\mensajes_contacto_controller.php(74): view('\\front\\header\\front\\mensajesContacto', 'Array\\front\\footer')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\mensajes_contacto_controller->mostrarMensajesContacto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mensajes_contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 16:02:59 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH\Views\front\header.php on line 97.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\mensajes_contacto_controller.php(75): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\mensajes_contacto_controller->mostrarMensajesContacto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mensajes_contacto_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 17:14:15 --> syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\front\miCuenta.php on line 4.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\miCuenta', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(151): view('\\front\\miCuenta')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->miCuenta()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 17:34:09 --> syntax error, unexpected '}'
+in APPPATH\Views\front\miCuenta.php on line 24.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\miCuenta', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(151): view('\\front\\miCuenta')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->miCuenta()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 17:51:07 --> syntax error, unexpected '$apellido' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Views\front\miCuenta.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\miCuenta', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(151): view('\\front\\miCuenta')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->miCuenta()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-20 19:30:35 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\usuario_controller.php(229): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->modificarDatosCuenta()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

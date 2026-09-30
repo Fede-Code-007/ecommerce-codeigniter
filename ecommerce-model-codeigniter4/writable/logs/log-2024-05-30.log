@@ -1,0 +1,126 @@
+CRITICAL - 2024-05-30 02:34:02 --> Class 'App\Controllers\ProductosModel' not found
+in APPPATH\Controllers\productos_controller.php on line 210.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\productos_controller->catalogoFiltrado('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productos_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:00:28 --> syntax error, unexpected ')', expecting ';' or ','
+in APPPATH\Views\front\header.php on line 99.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\productos_controller.php(217): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\productos_controller->catalogoFiltrado('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productos_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:02:43 --> syntax error, unexpected '' || preg_match('' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 99.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\productos_controller.php(217): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\productos_controller->catalogoFiltrado('5')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productos_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:02:46 --> syntax error, unexpected '' || preg_match('' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 99.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\productos_controller.php(204): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\productos_controller->catalogo()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productos_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:02:48 --> syntax error, unexpected '' || preg_match('' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 99.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(320): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->mostrarTablaUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:07:13 --> syntax error, unexpected 'catalogo' (T_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 100.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(320): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->mostrarTablaUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:08:51 --> syntax error, unexpected 'catalogo' (T_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 100.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(320): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->mostrarTablaUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:11:27 --> syntax error, unexpected 'catalogo' (T_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 100.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(320): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->mostrarTablaUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:11:53 --> syntax error, unexpected 'catalogo' (T_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 100.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(320): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->mostrarTablaUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:11:56 --> syntax error, unexpected 'catalogo' (T_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 100.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(320): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->mostrarTablaUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:11:57 --> syntax error, unexpected 'catalogo' (T_STRING), expecting ';' or ','
+in APPPATH\Views\front\header.php on line 100.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 3 APPPATH\Controllers\productos_controller.php(217): view('\\front\\header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\productos_controller->catalogoFiltrado('7')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productos_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:13:02 --> preg_match(): Unknown modifier 'c'
+in APPPATH\Views\front\header.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'c\'', 'APPPATH\\Views\\front\\header.php', 100, [...])
+ 2 APPPATH\Views\front\header.php(100): preg_match('/proyecto_perez_ruiz_federico/catalogoFiltrado(\\d+)', '/proyecto_perez_ruiz_federico/catalogoFiltrado7')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\header.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 6 APPPATH\Controllers\productos_controller.php(217): view('\\front\\header', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\productos_controller->catalogoFiltrado('7')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productos_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 03:17:30 --> preg_match(): Unknown modifier 'c'
+in APPPATH\Views\front\header.php on line 100.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Unknown modifier \'c\'', 'APPPATH\\Views\\front\\header.php', 100, [...])
+ 2 APPPATH\Views\front\header.php(100): preg_match('/\\/proyecto_perez_ruiz_federico/catalogoFiltrado\\d+/', '/proyecto_perez_ruiz_federico/catalogoFiltrado17')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\header.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\header', [], true)
+ 6 APPPATH\Controllers\productos_controller.php(217): view('\\front\\header', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\productos_controller->catalogoFiltrado('17')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productos_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 13:14:06 --> "Auth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

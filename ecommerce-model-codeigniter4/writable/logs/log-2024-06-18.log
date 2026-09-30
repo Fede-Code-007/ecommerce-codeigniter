@@ -1,0 +1,27 @@
+ERROR - 2024-06-18 23:29:36 --> mysqli_sql_exception: Duplicate entry 'Fede002' for key 'usuario' in C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `usuario...')
+#2 C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `usuario...')
+#3 C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\proyecto_perez_ruiz_federico\app\Controllers\usuario_controller.php(267): CodeIgniter\Model->update('57', Array)
+#8 C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\CodeIgniter.php(934): App\Controllers\usuario_controller->modificarDatosCuenta()
+#9 C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#10 C:\xampp\htdocs\proyecto_perez_ruiz_federico\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_perez_ruiz_federico\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-18 23:29:36 --> Duplicate entry 'Fede002' for key 'usuario'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `usuarios` SET `nombre` = :nombre:, `apellido` = :apellido:, `usuario` = :usuario:, `email` = :email:
+WHERE `usuarios`.`id_usuario` IN :usuarios.id_usuario:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\usuario_controller.php(267): CodeIgniter\Model->update('57', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\usuario_controller->modificarDatosCuenta()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,270 @@
+
+.h2{
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+/*ACORDEON*/
+.accordion-button:is(.collapsed)::after {
+    box-shadow: white !important;
+}
+.accordion-button:not(.collapsed)::after {
+    box-shadow: white !important; 
+}
+
+ .accordion-button:is(.collapsed)::after {
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;    
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;    
+    }
+
+/*MODAL*/
+.modal-body {
+    overflow-y: auto; /* Agrega barra de desplazamiento vertical si es necesario */
+    max-height: 60vh; /* Altura máxima del área del cuerpo del modal */
+}
+
+/*CLASES SECUNDARIAS DE LOS CONTENEDORES*/
+
+.principal{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.secundario{
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.producto{
+    margin-top: 5px;
+    padding-left: 0;
+}
+
+.sinMargenIzquierdo{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.bordeHeader{
+    max-height: 100px;
+    background-color: black;
+}
+
+/*CLASES SECUNDARIAS DE LAS IMAGENES*/
+
+.iconoNavBar20x20 {
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 30px;
+    height: 20px;
+}
+
+.iconoFooterXS {
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.logoContacto {
+    padding-right: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.imagenProducto {
+    width: 200px;
+    height: 200px;
+}
+
+/*CLASES SECUNDARIAS DE LOS LINKS*/
+
+.linksProductos {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.linksFooter {
+    text-decoration: none;
+    padding-left: 0;
+
+}
+
+.linksSinPunto {
+    list-style-type: none;
+}
+
+.enLinea{
+    display: inline;
+}
+
+.modal-dialog-scrollable {
+    max-height: calc(100vh - 100px); /* ajusta la altura máxima según tus necesidades */
+    overflow-y: auto; /* habilita el desplazamiento vertical cuando sea necesario */
+}
+
+
+/*FOOTER*/ 
+
+footer { 
+    /*Texto*/
+    text-decoration: none;
+    font-style: italic ;
+    font-weight:200;
+    bottom: 0;
+     /*Margenes*/
+     /*margin-top: 40px;*/
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-bottom: 0px;
+     padding:20px;
+     border-top:solid, 20px;
+     
+     width: 100%;
+}
+
+.bordeInferiorSolido{
+    border-bottom: 1px solid #777777a8;
+}
+
+.redesFooter{
+    margin-right: "40px";
+    margin-bottom: "20px";
+}
+
+.nav-link.active {
+    
+    font-weight:bolder;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+/*PARRAFOS*/
+
+.parrafoJustificado{
+    text-align: justify;
+}
+
+/*FLECHAS CARROUSEL PRODUCTOS*/
+
+.controlIzq,
+.controlDer {
+    width: 20px; /* Ajusta el ancho del área clicable de las flechas */
+    background: none; /* Elimina cualquier fondo adicional */
+    z-index: 1; /* Asegura que las flechas estén por encima del contenido */
+}
+
+.controlIzq {
+    left: -20px; /* Ajusta esta cantidad para desplazar la flecha izquierda */
+}
+
+.controlDer {
+    right: -20px; /* Ajusta esta cantidad para desplazar la flecha derecha */
+}
+
+.flechaAnteriorProducto,
+.flechaSiguienteProducto {
+    width: 20px; /* Ajusta el ancho del ícono de las flechas */
+    background-size: 100%; /* Asegura que los íconos se ajusten correctamente */
+}
+
+.flechaPromo {
+    position: absolute;
+    bottom: 34%; /* Ajusta este valor según sea necesario */
+    z-index: 1;
+    color: white;
+    width: 25px
+}
+  
+/*HR*/
+
+.hrTarjeta {
+    border: 0; /* Elimina el borde */
+    height: 1px; /* Altura de la línea */
+    background-color: #ccc; /* Color de la línea */
+    margin: 10px 0; /* Espacio entre la línea y el contenido */
+}
+
+.palabrasLargas {
+    word-wrap: break-word; /* Fallback para navegadores antiguos */
+    overflow-wrap: break-word; /* Estándar */
+  }
+
+.textoTarjetaProducto{
+    font-size: 1.4vw;
+}
+
+h6{
+    font-size: 1.8vw;
+}
+
+.cajaContacto{
+    border: solid;
+    border: 10px;
+}
+
+.espacioForm{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hover-footer:hover{
+    background-color: aquamarine;
+    color:black;
+    border-radius: 3px;
+    padding:2px;
+}
+
+.hover-header:hover{
+    background-color: rgb(36, 34, 34);
+    color:whitesmoke;
+    border-radius: 3px;
+    padding:2px;
+}
+
+.containerFilaUnica {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.rowFilaUnica {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* Para un desplazamiento suave en dispositivos móviles */
+}
+.card-container-FilaUnica {
+    flex: 0 0 auto;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    margin-right: 10px; /* Espacio entre tarjetas */
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+.arrow-left {
+    left: -0vw;
+}
+.arrow-right {
+    right: 0;
+}
+
+.textoSinSubrayado{
+    text-decoration: none;
+}

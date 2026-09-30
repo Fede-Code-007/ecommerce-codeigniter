@@ -1,0 +1,18 @@
+CRITICAL - 2024-05-24 23:24:23 --> syntax error, unexpected end of file
+in APPPATH\Views\front\formularioAltaProducto.php on line 129.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\formularioAltaProducto', [], true)
+ 3 APPPATH\Controllers\productos_controller.php(21): view('\\front\\formularioAltaProducto')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\productos_controller->formularioAltaProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productos_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-24 23:25:15 --> syntax error, unexpected end of file
+in APPPATH\Views\front\formularioAltaProducto.php on line 130.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('\\front\\formularioAltaProducto', [], true)
+ 3 APPPATH\Controllers\productos_controller.php(21): view('\\front\\formularioAltaProducto')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\productos_controller->formularioAltaProducto()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productos_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

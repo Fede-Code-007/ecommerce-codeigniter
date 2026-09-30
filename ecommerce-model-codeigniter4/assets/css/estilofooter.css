@@ -1,0 +1,11 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color de texto del footer */
+    padding: 20px 30px 0px 20px; /* Espacio alrededor del contenido del footer */
+    text-decoration: aliceblue;
+    font-style: italic ;
+    font-weight:200;
+}
