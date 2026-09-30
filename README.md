@@ -165,8 +165,6 @@ Una vez instalado, iniciar los servicios:
 * **Apache**
 * **MySQL**
 
----
-
 ### 2. Copiar el proyecto
 
 Copiar la carpeta:
@@ -187,8 +185,6 @@ La estructura debería quedar aproximadamente así:
 C:\xampp\htdocs\ecommerce-model-codeigniter4\
 ```
 
----
-
 ### 3. Importar la base de datos
 
 Abrir **phpMyAdmin** desde:
@@ -202,8 +198,6 @@ Crear/importar la base de datos utilizando el archivo incluido en:
 ```text
 bd-ecommerce-codeigniter4
 ```
-
----
 
 ### 4. Habilitar la extensión `intl`
 
@@ -228,8 +222,6 @@ extension=intl
 Guardar los cambios y reiniciar Apache.
 
 Este paso es necesario para que CodeIgniter 4 pueda ejecutarse correctamente.
-
----
 
 ### 5. Acceder a la aplicación
 
